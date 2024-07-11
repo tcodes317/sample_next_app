@@ -14,27 +14,23 @@ module.exports = {
       padding: "15px"
     },
     screens: {
-      // gal_z_fold: "344px",
-      // iPhone_se: "375px",
-      // iPhone_xr: "414px",
-      // iPhone_12_pro: "390px",
-      // iPhone_14_pro_max: "430px",
-      // pixel: "412px",
-      // sam_gal_s8: "360px",
-      // sam_gal_s20_ultra: "412px",
-      // ipad_mini: "768px",
-      // ipad_air: "820px",
-      // ipad_pro: "1024px",
-      // surface_pro: "912px",
-      // surface_duo: "540px",
-      // asus: 
       sm: "640px",
       md: "768px",
       lg: "960px",
       xl: "1200px",
-      2xl: "1400px"
+    },
+    fontFamily: {
+      primary: "var(--font-jetbrainsMono)",
     },
     extend: {
+      colors: {
+        primary: "#1c1c22",
+        accent: {
+          DEFAULT: "#00ff99",
+          hover: "#00e187",
+          
+        }
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
