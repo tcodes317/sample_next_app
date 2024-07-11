@@ -1,1 +1,0 @@
-# sample_next_app
